@@ -1,0 +1,72 @@
+.root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display:block;
+    margin:0;
+    height: 99vh;
+    background: rgb(6,1,96);
+    background: linear-gradient(45deg, rgba(15, 78, 97, 0.973) 25%, 
+         rgba(190, 14, 14, 0.603) 95%);
+}
+
+.results-ct {
+    display: block;
+    height: 25%;
+    align-items: center;
+}
+.sub-ct {
+    display:flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.played {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    
+}
+.results {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+.notify {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 50px;
+}
+
+#btn-ct {
+    display:flex;
+    width: 300px;
+    justify-content: space-between;
+    padding-top: -50px;
+}
+
+.btn {
+    display: block;
+}
+
+button {
+    display: flex;
+    padding: 0;
+    height: 115px;
+    width: 80px;
+}
+#rock {
+    background-image: url('/images/rock.png');
+}
+#paper {
+    background-image: url('/images/paper.png');
+}
+#scissors {
+    background-image: url('/images/scissors.png');
+}
